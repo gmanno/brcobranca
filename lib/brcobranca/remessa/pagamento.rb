@@ -4,7 +4,8 @@ module Brcobranca
     class Pagamento
 
       include Brcobranca::Validations
-
+      # <b>REQUERIDO</b>        
+      attr_accessor :agencia
       # <b>REQUERIDO</b>: nosso numero
       attr_accessor :nosso_numero
       # <b>REQUERIDO</b>: data do vencimento do boleto
@@ -109,6 +110,7 @@ module Brcobranca
           valor_segundo_desconto: 0.0,
           valor_iof: 0.0,
           valor_abatimento: 0.0,
+          agencia: '001',
           nome_avalista: '',
           cod_desconto: '0',
           especie_titulo: '01',
