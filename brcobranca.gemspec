@@ -7,6 +7,7 @@ require 'brcobranca/version'
 Gem::Specification.new do |gem|
   gem.name        = 'brcobranca'
   gem.version     = Brcobranca::VERSION
+  gem.license     = 'MIT'
   gem.authors = ['Kivanio Barbosa']
   gem.description = 'Gem para emissao de bloquetos de cobranca de bancos brasileiros.'
   gem.summary = 'Gem que permite trabalhar com bloquetos de cobranca para bancos brasileiros.'
